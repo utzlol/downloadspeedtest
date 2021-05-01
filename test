@@ -1,0 +1,1 @@
+wget http://speedtest-ny.turnkeyinternet.net/1000mb.bin && rm 1000mb.bin

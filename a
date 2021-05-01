@@ -1,0 +1,7 @@
+import subprocess
+
+try:
+	while True:
+		subprocess.check_output(['bash', 'test'])
+except KeyboardInterrupt:
+    subprocess.check_output(['bash', 'del'])
